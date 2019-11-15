@@ -1,0 +1,86 @@
+	TOTAL TWEETS SCRAPED: 40280/33258 ----> 56158
+
+INDIA:(12694-Tweets)
+
+Yogi Adityanath
+@myogiadityanath	T:9154 E:2913/2386
+
+Amit Shah
+@AmitShah	T:9549 E:2305/2233
+
+Rajnath Singh
+@rajnathsingh	T:4623 E:3200{with RT}/2712
+
+Jyotiraditya M. Scindia
+@JM_Scindia	T:4833 E:2727/2449
+
+Narendra Modi
+@narendramodi	T:24.5K E:3069/2914
+
+//Anjana Om Kashyap
+  @anjanaomkashyap	T:10.1K
+
+USA:(10358-Tweets)
+
+//Arnold
+  @Schwarzenegger	T:6568
+
+Elizabeth Warren
+@SenWarren	T:4620 E:2968/2186
+
+Joe Biden
+@JoeBiden	T:2525 E:2525{with RT}/1957
+
+Kamala Harris
+@KamalaHarris	T:12K E:2959/2889
+
+Mike Pence
+@mike_pence	T:5876 E:1606/1570
+
+//Donald J. Trump
+@realDonaldTrump	T:44.2K E: PROBLEM(16)
+
+Hillary Clinton
+@HillaryClinton	T:11.1K E:2568/1756
+
+BRAZIL:(10206-Tweets)
+
+//Daniel Coelho
+  @DanielCoelho23	T:18.7K
+
+Jair M. Bolsonaro
+@jairbolsonaro	T:7493 E:2679/2129
+
+Eduardo Bolsonaro
+@BolsonaroSP	T:15.1K E:1840/1670
+
+Carlos Bolsonaro
+@CarlosBolsonaro	T:13.2K E:2675/1800
+
+// jrguzzo
+  @jrguzzofatos	T:19.5K E:3198/ Error
+
+Alexandre Garcia
+@alexandregarcia	T:5657 E:3048/1726
+
+//Michel Temer
+  @MichelTemer    T:14.9K E:1857
+
+Zeca Dirceu
+@zeca_dirceu T:32.1K E:2881
+
+KEY1
+
+"ACCESS_SECRET": "BhrPNuuBQ02dPZa3SpGPnz7P2LPfo65qhiL52MKBc4Bir",
+    "ACCESS_TOKEN": "1169314161182068736-Rdw17TJQV3exntZfvoxRHN4QBPyctF",
+    "CONSUMER_KEY": "F7P0Cg5I8SgOmmm0jiR2MEd8E",
+    "CONSUMER_SECRET": "aOC1wNicBbNbHx8VxVXkZ199ykyl8jiT8vqm4OUuds5SSvm9se"
+
+KEY2
+
+"ACCESS_SECRET": "PEo7ueVkRgc0X2yhZyVcmuScn6ZTrOemd7YJHJEiQOObP",
+    "ACCESS_TOKEN": "1169314161182068736-xhP3I9HQzU2LJZnwvHrF19SurfnTgK",
+    "CONSUMER_KEY": "MaEqEKDmykx7M7MJhO5KVPukz",
+    "CONSUMER_SECRET": "IH0Rytumsj3HgxR2pCCy88nDwUfdYgTW4IShZ05WUYpeOKRKxl"
+
+

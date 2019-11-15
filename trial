@@ -1,0 +1,65 @@
+name= "UBCSE_IR"
+tweet_count= 5
+results= api.user_timeline(id=name, count=tweet_count)
+for tweet in results:
+   print(tweet.text)
+
+public_tweets = api.home_timeline()
+for tweet in public_tweets:
+    print(tweet.text)
+
+    i=2
+new_tweet = api.user_timeline(id=name, count=1)
+all_the_tweets.extend(new_tweet)
+while i < 3200:
+    oldest_tweet = all_the_tweets[-1].id - 1
+#RETWEET
+        if 'retweeted_status' in json_object:
+        pass
+    else:
+
+    # TRIAL FIRST TRY
+SAFETY
+import os
+import tweepy
+import json
+import csv
+#OAuth Handler Instance and Authentication
+
+with open('twitter_credentials.json') as twitter_json:
+    secret = json.load(twitter_json)
+C_KEY = secret['CONSUMER_KEY']
+C_SECRET = secret['CONSUMER_SECRET']
+A_TOKEN = secret['ACCESS_TOKEN']
+A_SECRET = secret['ACCESS_SECRET']
+
+auth = tweepy.OAuthHandler(C_KEY, C_SECRET)
+auth.set_access_token(A_TOKEN, A_SECRET)
+api = tweepy.API(auth)
+
+#Scraping Tweets from User
+name = input("Enter the twitter handle of the person whose tweets you want to download:- ")
+all_the_tweets = []
+count=3200
+#name = 'elonmusk'
+new_tweets = api.user_timeline(id=name, count=1)
+all_the_tweets.extend(new_tweets)
+oldest_tweet = all_the_tweets[-1].id - 1
+# grabbing tweets till none are left
+while len(new_tweets) > 0:
+    new_tweets = api.user_timeline(id=name, count=1, max_id=oldest_tweet)
+    with open(str(name) + '_' + str(len(tweets)) + '.json', 'a+') as json_file:
+        json_object['country'] = 'Brazil'
+        json.dump(json_object, json_file, indent=4)
+    all_the_tweets.extend(new_tweets)
+    oldest_tweet = all_the_tweets[-1].id - 1
+    print ('...%s tweets have been downloaded so far' % len(all_the_tweets))
+
+
+#print(all_the_tweets)
+# transforming the tweets into json
+with open(str(name)+'.json', 'w') as json_file:
+    for item in all_the_tweets:
+        json.dump(item, json_file, indent = 4)
+
+
